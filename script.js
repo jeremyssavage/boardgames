@@ -1,4 +1,4 @@
-<script>
+// Javascript code for my board game organiser. Doesn't need html tags, apparently.
 
 let request = new XMLHttpRequest()  // Object used to pull data from BGG's API.
 let urlBase = 'https://api.geekdo.com/xmlapi2/'  // The base for all BGG XML data. JS has fancy URL objects & methods but I don't think I need them...
@@ -23,5 +23,3 @@ request.onload = function() {
 }
 
 request.send()
-
-</script>
